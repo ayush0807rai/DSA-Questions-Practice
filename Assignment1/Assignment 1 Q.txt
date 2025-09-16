@@ -1,0 +1,33 @@
+Problem 1: 
+In the land of Numberia, there was a great Royal Tournament. 
+● Each team came to compete. 
+● Every row in the scoreboard represented one team. 
+● Each number in the row was the score of a player from that team. 
+The King of Numberia wanted to reward the best-performing team. 
+But he was too busy, so he asked you — the Royal Mathematician — to help. 
+Your job: 
+● Find the team whose total score is the highest (row with maximum sum). 
+● Report the team’s index (row number) to the King. 
+● If two or more teams tie with the same score, the earliest team in the scoreboard 
+should be declared the winner. 
+Only then will the King crown the winning team with the Golden Abacus Trophy. 
+�
+�
+ 
+Input 
+● First line contains two integers N (number of teams / rows) and M (number of 
+players per team / columns). 
+● Next N lines each contain M integers — the scoreboard matrix. 
+Output 
+● Print the index (0-based) of the team with the highest total score. 
+Constraints 
+● 1 ≤ N, M ≤ 100 
+● -10^5 ≤ Score ≤ 10^5 
+Input 
+3 3 
+1 2 3 
+9 8 7 
+4 5 6 
+ 
+Output 
+1
