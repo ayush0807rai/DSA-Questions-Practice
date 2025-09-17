@@ -4,30 +4,30 @@ public class problem2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Read the size of the matrix
+        
         int N = sc.nextInt();
 
-        // Initialize the matrix
+        
         int[][] matrix = new int[N][N];
 
-        // Read matrix elements
+        
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 matrix[i][j] = sc.nextInt();
             }
         }
 
-        // Initialize sums
+        
         int mainDiagonalSum = 0;
         int secondaryDiagonalSum = 0;
 
-        // Compute the sums
+        
         for (int i = 0; i < N; i++) {
             mainDiagonalSum += matrix[i][i];             // Royal Path of Wisdom
             secondaryDiagonalSum += matrix[i][N - 1 - i]; // Royal Path of Power
         }
 
-        // Output the results
+        
         System.out.println(mainDiagonalSum + " " + secondaryDiagonalSum);
     }
 
