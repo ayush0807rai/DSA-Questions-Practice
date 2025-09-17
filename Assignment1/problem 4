@@ -9,7 +9,7 @@ public class MatriciaPattern {
         int[][] matrix = new int[N][N];
         int val = 1;
 
-        // Fill matrix in row-major order
+        
         for (int i = 0; i < N; i++)
             for (int j = 0; j < N; j++)
                 matrix[i][j] = val++;
