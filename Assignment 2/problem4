@@ -1,4 +1,4 @@
-//Given a 2D square matrix mat[][] of size n x n, rotate it by 180 degrees without using extra space. Note: You must rotate the matrix in place and modify the input matrix directly.
+
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ public class RotateMatrix180 {
     public static void rotate180(int[][] mat) {
         int n = mat.length;
 
-        // Swap elements with their diagonally opposite counterparts
+        
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 // Only swap once (avoid double swapping)
@@ -27,7 +27,7 @@ public class RotateMatrix180 {
 
         rotate180(mat);
 
-        // Print rotated matrix
+        
         for (int[] row : mat) {
             System.out.println(Arrays.toString(row));
         }
