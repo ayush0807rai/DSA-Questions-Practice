@@ -1,4 +1,4 @@
-//Given an m x n matrix, return all elements of the matrix in spiral order.//
+
 
 import java.util.*;
 
@@ -13,13 +13,13 @@ public class SpiralMatrix {
         int right = matrix[0].length - 1;
 
         while (top <= bottom && left <= right) {
-            // Traverse from Left to Right
+            
             for (int i = left; i <= right; i++) {
                 result.add(matrix[top][i]);
             }
             top++;
 
-            // Traverse from Top to Bottom
+            
             for (int i = top; i <= bottom; i++) {
                 result.add(matrix[i][right]);
             }
