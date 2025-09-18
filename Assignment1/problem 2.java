@@ -23,8 +23,8 @@ public class problem2 {
 
         
         for (int i = 0; i < N; i++) {
-            mainDiagonalSum += matrix[i][i];             // Royal Path of Wisdom
-            secondaryDiagonalSum += matrix[i][N - 1 - i]; // Royal Path of Power
+            mainDiagonalSum += matrix[i][i];             
+            secondaryDiagonalSum += matrix[i][N - 1 - i]; 
         }
 
         
