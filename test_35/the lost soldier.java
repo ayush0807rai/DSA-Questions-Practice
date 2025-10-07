@@ -1,4 +1,4 @@
-public class Q2 {
+public class ques_2 {
     public static int lostSoldier(int n, int[] arr) {
         int sum = n * (n + 1) / 2;
         int actual = 0;
